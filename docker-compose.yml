@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  jupyter:
+    build: ./docker/jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/home/jovyan/work
+    environment:
+      - JUPYTER_TOKEN=mlstarter
+
+  mlflow:
+    build: ./docker/mlflow
+    ports:
+      - "5000:5000"
+    environment:
+      - MLFLOW_TRACKING_URI=http://localhost:5000
