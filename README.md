@@ -1,6 +1,11 @@
-# 🧪 AI/ML Docker Pipelines
+# 🤖 ai-ml-docker-pipelines
 
-Containerized AI/ML pipelines using Jupyter, MLflow, and Docker — fast, reproducible, and scalable.
+[![Docker](https://img.shields.io/badge/dockerized-yes-brightgreen)](https://www.docker.com/)
+[![Jupyter](https://img.shields.io/badge/jupyter-ready-orange)](https://jupyter.org/)
+[![MLflow](https://img.shields.io/badge/mlflow-tracking-blue)](https://mlflow.org/)
+[![License](https://img.shields.io/github/license/yourusername/ai-ml-docker-pipelines)](LICENSE)
+
+Dockerized AI/ML development environment with JupyterLab and MLflow — ideal for prototyping and managing ML experiments.
 
 ## Features
 
